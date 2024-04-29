@@ -17,20 +17,23 @@ const Nav = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 24,
-    backgroundColor: '#4aeaea',
+    paddingVertical: 30, // Aumenté el relleno vertical
+    paddingHorizontal: 20, // Ajusté el relleno horizontal
+    backgroundColor: '#2a2aff', // Cambié el color de fondo
+    justifyContent: 'center', // Centré el contenido verticalmente
+    alignItems: 'center',
   },
   title: {
-    marginTop: 16,
-    paddingVertical: 8,
-    paddingHorizontal: 12,
-    borderWidth: 4,
-    borderColor: '#90912a',
-    borderRadius: 6,
-    backgroundColor: '#919afb',
-    color: '#90292a',
-    textAlign: 'center',
-    fontSize: 30,
+    marginTop: 20, // Aumenté el espacio superior
+    paddingVertical: 12, // Aumenté el relleno vertical
+    paddingHorizontal: 20, // Aumenté el relleno horizontal
+    borderWidth: 3, // Aumenté el ancho del borde
+    borderColor: '#ff2a2a', // Cambié el color del borde
+    borderRadius: 10, // Aumenté el radio de borde
+    backgroundColor: '#ffcc00', // Cambié el color de fondo
+    color: '#ff0000', // Cambié el color del texto
+    textAlign: 'center', // Centré el texto horizontalmente
+    fontSize: 36, // Aumenté el tamaño de fuente
     fontWeight: 'bold',
   },
 });
