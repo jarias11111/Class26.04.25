@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 
-const Geolocalizacion = () => {
+const geolocal = () => {
   const [location, setLocation] = useState(null);
   const mapRef = useRef(null);
 
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Geolocalizacion;
+export default geolocal;

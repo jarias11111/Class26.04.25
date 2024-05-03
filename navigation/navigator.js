@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 
-const Nav = ({ navigation }) => {
+const app = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Button title="Camara" onPress={() => navigation.navigate('Camara')} />
@@ -9,7 +9,7 @@ const Nav = ({ navigation }) => {
       <Button title="Mensaje" onPress={() => navigation.navigate('Comunicacion', { formType: 'message' })} />
       <Button title="Correo" onPress={() => navigation.navigate('Comunicacion', { formType: 'email' })} />
       <Button title="Geolocalizacion" onPress={() => navigation.navigate('Geolocalizacion')} />
-      <Button title="Almacenamiento" onPress={() => navigation.navigate('Alumnos')} />
+      <Button title="Almacenamiento" onPress={() => navigation.navigate('Almacenamiento')} />
     </View>
   );
 };
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingVertical: 30, // Aumenté el relleno vertical
     paddingHorizontal: 20, // Ajusté el relleno horizontal
-    backgroundColor: '#2a2aff', // Cambié el color de fondo
+    backgroundColor: '#fffff', // Cambié el color de fondo
     justifyContent: 'center', // Centré el contenido verticalmente
     alignItems: 'center',
   },
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12, // Aumenté el relleno vertical
     paddingHorizontal: 20, // Aumenté el relleno horizontal
     borderWidth: 3, // Aumenté el ancho del borde
-    borderColor: '#ff2a2a', // Cambié el color del borde
+    borderColor: '#fffff', // Cambié el color del borde
     borderRadius: 10, // Aumenté el radio de borde
     backgroundColor: '#ffcc00', // Cambié el color de fondo
     color: '#ff0000', // Cambié el color del texto
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Nav;
+export default app;

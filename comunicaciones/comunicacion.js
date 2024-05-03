@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#f0f0f9',
+    backgroundColor: '#ffffff',
   },
   inputContainer: {
     marginBottom: 20,
@@ -101,10 +101,11 @@ const styles = StyleSheet.create({
   input: {
     marginBottom: 10,
     padding: 10,
-    backgroundColor: '#d9d9d9',
+    backgroundColor: '#ffe5cc',
     borderRadius: 5,
     borderWidth: 1,
-    borderColor: '#ddd000',
+    borderColor: '#ff9933',
+    color: '#663300'
   },
 });
 
